@@ -1,0 +1,16 @@
+p {
+  font-family: Lato;
+  color: RED;
+}
+
+.prod-item {
+  border: solid 1px red;
+  display: block;
+}
+
+.img-prod {
+  height: 200px;
+  width: 200px;
+  border: solid 1px red;
+  background-color: grey;
+}

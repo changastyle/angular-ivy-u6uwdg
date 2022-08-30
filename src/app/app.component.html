@@ -1,0 +1,14 @@
+<hello name="{{ name }}"></hello>
+
+<div>Tu edad es {{ edad }}</div>
+<p>Primer proyecto con Angular 14</p>
+
+<div class="cont-items">
+  <div class="prod-item" *ngFor="let prodLoop of arrProds">
+    <img src="" class="img-prod" />
+    {{ prodLoop.nombre }}
+    ${{ prodLoop.precio }}
+  </div>
+</div>
+
+<style></style>
